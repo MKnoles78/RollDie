@@ -1,4 +1,5 @@
 
+//Mike K
 // Fig. 6.7: RollDie.java
 //Roll a six-sided die 60,000,000 times. 
 import java.security.SecureRandom;
