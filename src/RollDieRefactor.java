@@ -14,11 +14,11 @@ public class RollDieRefactor {
 			++frequency[1 + randomNumbers.nextInt(6)];
 		}
 
-		System.out.printf("%s%10%s%n", "Face", "Freqency");
+		System.out.printf("%s%10s%n", "Face", "Freqency");
 
 		// output each array element's value
 		for (int face = 1; face < frequency.length; face++) {
-			System.out.printf("%4d%10%d%n", face, frequency[face]);
+			System.out.printf("%4d%10d%n", face, frequency[face]);
 		}
 
 	}
